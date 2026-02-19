@@ -1,0 +1,58 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #ffa2df;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Grid Layout */
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Media Item Styles */
+.media-item {
+    background-color: #af89d9; /* Different background for media items */
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.media-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.media-item audio,
+.media-item iframe {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.media-item a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #00796b;
+}
+
+.media-item .description {
+    font-style: italic;
+    margin: 0.5rem 0;
+}
+
+.media-item .attribution {
+    font-size: 0.8rem;
+    color: #555;
+}
